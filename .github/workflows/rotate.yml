@@ -1,0 +1,32 @@
+name: rotate gh-pages commits (soft reset)
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # 03:00 UTC
+  workflow_dispatch:     # manual trigger
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0  # full history required for reset
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Create/update gh-pages branch
+        run: |
+          git checkout gh-pages || git checkout -b gh-pages origin/gh-pages
+          git reset --soft origin/main
+          git commit -m "squashed"
+          git push -f origin gh-pages
