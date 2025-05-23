@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[夢でフラれてはじまる百合]]></title>
+    <link>https://gammaplus.takeshobo.co.jp/manga/yumedefurarete/</link>
+    <atom:link href="https://ya0201.github.io/my-weneedfeed-takeshobo-manga/feeds/yumedefurarete.xml" rel="self"/>
+    <description><![CDATA[]]></description>
+    <lastBuildDate>Fri, 23 May 2025 16:59:14 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[第47話 Wデートの続き
+]]></title>
+      <link>https://gammaplus.takeshobo.co.jp/_files/yumedefurarete/47/</link>
+      
+        <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://gammaplus.takeshobo.co.jp/_files/yumedefurarete/47/</guid>
+      
+        <enclosure url="https://gammaplus.takeshobo.co.jp/img/ep_thumb/yumedefurarete_47.jpg" length="0" type="image/jpeg"/>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[第46話 一方その頃、陽花と紗羅は
+]]></title>
+      <link>https://gammaplus.takeshobo.co.jp/_files/yumedefurarete/46/</link>
+      
+        <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://gammaplus.takeshobo.co.jp/_files/yumedefurarete/46/</guid>
+      
+        <enclosure url="https://gammaplus.takeshobo.co.jp/img/ep_thumb/yumedefurarete_46.jpg" length="0" type="image/jpeg"/>
+      
+    </item>
+    
+  </channel>
+</rss>
